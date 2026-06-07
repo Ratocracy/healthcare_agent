@@ -1,0 +1,189 @@
+[
+  {
+    "patient_id": "LAB_001",
+    "age": 29,
+    "sex": "female",
+    "fasting": true,
+    "conditions": [],
+    "medications": [],
+    "symptoms": [
+      "fatigue"
+    ],
+    "labs": {
+      "LDL": 118,
+      "HDL": 62,
+      "Triglycerides": 92,
+      "A1c": 5.2,
+      "Creatinine": 0.8,
+      "eGFR": 104,
+      "ALT": 20,
+      "AST": 19,
+      "Vitamin_D": 16
+    }
+  },
+  {
+    "patient_id": "LAB_002",
+    "age": 44,
+    "sex": "male",
+    "fasting": false,
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [
+      "amlodipine"
+    ],
+    "symptoms": [],
+    "labs": {
+      "LDL": 154,
+      "HDL": 38,
+      "Triglycerides": 286,
+      "A1c": 6.0,
+      "Creatinine": 1.0,
+      "eGFR": 94,
+      "ALT": 46,
+      "AST": 34,
+      "Vitamin_D": 24
+    }
+  },
+  {
+    "patient_id": "LAB_003",
+    "age": 63,
+    "sex": "male",
+    "fasting": true,
+    "conditions": [
+      "type 2 diabetes",
+      "hyperlipidemia"
+    ],
+    "medications": [
+      "metformin",
+      "atorvastatin"
+    ],
+    "symptoms": [],
+    "labs": {
+      "LDL": 88,
+      "HDL": 36,
+      "Triglycerides": 248,
+      "A1c": 8.1,
+      "Creatinine": 1.5,
+      "eGFR": 52,
+      "ALT": 28,
+      "AST": 24,
+      "Vitamin_D": 27
+    }
+  },
+  {
+    "patient_id": "LAB_004",
+    "age": 38,
+    "sex": "female",
+    "fasting": true,
+    "conditions": [],
+    "medications": [],
+    "symptoms": [
+      "nausea",
+      "dark urine"
+    ],
+    "labs": {
+      "LDL": 102,
+      "HDL": 54,
+      "Triglycerides": 108,
+      "A1c": 5.4,
+      "Creatinine": 0.9,
+      "eGFR": 93,
+      "ALT": 184,
+      "AST": 162,
+      "Vitamin_D": 31
+    }
+  },
+  {
+    "patient_id": "LAB_005",
+    "age": 51,
+    "sex": "female",
+    "fasting": true,
+    "conditions": [
+      "obesity"
+    ],
+    "medications": [],
+    "symptoms": [],
+    "labs": {
+      "LDL": 172,
+      "HDL": 34,
+      "Triglycerides": 342,
+      "A1c": 6.7,
+      "Creatinine": 1.1,
+      "eGFR": 68,
+      "ALT": 96,
+      "AST": 82,
+      "Vitamin_D": 18
+    }
+  },
+  {
+    "patient_id": "LAB_006",
+    "age": 35,
+    "sex": "male",
+    "fasting": true,
+    "conditions": [],
+    "medications": [],
+    "symptoms": [],
+    "labs": {
+      "LDL": 98,
+      "HDL": 58,
+      "Triglycerides": 110,
+      "A1c": 5.3,
+      "Creatinine": 1.4,
+      "eGFR": 66,
+      "ALT": 26,
+      "AST": 24,
+      "Vitamin_D": 29
+    }
+  },
+  {
+    "patient_id": "LAB_007",
+    "age": 57,
+    "sex": "female",
+    "fasting": false,
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "symptoms": [],
+    "labs": {
+      "LDL": 92,
+      "HDL": 49,
+      "Triglycerides": 198,
+      "A1c": 7.2,
+      "Creatinine": 0.9,
+      "eGFR": 82,
+      "ALT": 32,
+      "AST": 30,
+      "Vitamin_D": 22
+    }
+  },
+  {
+    "patient_id": "LAB_008",
+    "age": 47,
+    "sex": "male",
+    "fasting": true,
+    "conditions": [
+      "hyperlipidemia"
+    ],
+    "medications": [
+      "rosuvastatin"
+    ],
+    "symptoms": [
+      "muscle soreness"
+    ],
+    "labs": {
+      "LDL": 71,
+      "HDL": 46,
+      "Triglycerides": 142,
+      "A1c": 5.8,
+      "Creatinine": 1.0,
+      "eGFR": 91,
+      "ALT": 74,
+      "AST": 79,
+      "Vitamin_D": 26
+    }
+  }
+]

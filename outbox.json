@@ -1,0 +1,261 @@
+[
+  {
+    "patient_id": "LAB_001",
+    "severity": "Routine",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to share some of your recent lab results with you. Most of your values are within normal ranges, which is encouraging. However, I noticed that your Vitamin D level is low.\n\nI would like to review these results with you and discuss what this means for your health. Please schedule a follow-up appointment so we can talk about these findings and any next steps.\n\nThank you, and I look forward to seeing you soon.\n\nBest regards,  \n[Physician's Name]",
+    "saved_at": "2026-03-29T02:13:05.293160"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Routine",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to share some recent lab results with you. Most of your values, including cholesterol and blood sugar levels, appear to be within the normal range based on the lab results, which is encouraging.\n\nHowever, I noticed that your Vitamin D level is low, and I would recommend discussing what this means for your health. Please consider scheduling a follow-up appointment so we can review these findings together and discuss any potential next steps.\n\nThank you, and I look forward to speaking with you soon.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:13:24.945409"
+  },
+  {
+    "patient_id": "LAB_002",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to bring to your attention some recent lab results that require further discussion. Your LDL cholesterol and triglycerides are elevated, and your HDL cholesterol is low. Additionally, your A1c level is mildly elevated, and your Vitamin D level is slightly low.\n\nThese results may have implications for your health, and I recommend that you schedule a follow-up appointment to discuss them in detail. It is important to review these findings with your physician to understand their significance and any potential next steps.\n\nThank you, and I look forward to seeing you soon.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:13:32.902335"
+  },
+  {
+    "patient_id": "LAB_003",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to share some recent lab results with you.\n\nYour LDL cholesterol level is normal, but I noticed that your HDL cholesterol is low, and your triglycerides are elevated. Additionally, your A1c level is elevated, which may suggest that your blood sugar levels require further evaluation. Your creatinine level is also elevated, and your eGFR is reduced, which may warrant a closer look at your kidney function. Lastly, your Vitamin D level is slightly low.\n\nI recommend scheduling a follow-up appointment to discuss these findings in detail and to determine any necessary next steps. \n\nThank you, and I look forward to speaking with you soon.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:13:42.680806"
+  },
+  {
+    "patient_id": "LAB_004",
+    "severity": "Urgent follow-up",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to reach out regarding some recent lab results. While most of your tests came back normal, I noticed that your ALT and AST levels are markedly elevated. This is a significant finding that requires further discussion and evaluation.\n\nIt is important that we explore these results in detail and consider any necessary next steps. I recommend scheduling a follow-up appointment as soon as possible to discuss these findings and any potential implications for your health.\n\nThank you, and I look forward to speaking with you soon.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:13:49.352244"
+  },
+  {
+    "patient_id": "LAB_005",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to inform you about some recent lab results that we should review together:\n\n- Your LDL cholesterol is elevated.\n- Your HDL cholesterol is low.\n- Your triglycerides are elevated.\n- Your A1c level is elevated, which may require further evaluation.\n- Your liver enzymes (ALT and AST) are also elevated.\n- Additionally, your Vitamin D level is low.\n\nI recommend that we discuss these results in detail and consider potential next steps. Please schedule a follow-up appointment at your earliest convenience so we can talk about these findings and their implications.\n\nThank you, and I look forward to seeing you soon.\n\nBest regards,\n[Physician's Name]\n[Physician's Contact Information]",
+    "saved_at": "2026-03-29T02:13:58.492740"
+  },
+  {
+    "patient_id": "LAB_006",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear Patient,\n\nI hope this message finds you well. I wanted to share some recent lab results with you. Most of your values are within normal ranges, which is encouraging. However, I would like to highlight that your creatinine level is noted as elevated, and your Vitamin D level is slightly low according to the lab results.\n\nIt is important to discuss these findings with your physician to understand their significance and any potential next steps. Please consider scheduling a follow-up appointment for a detailed review of these results.\n\nThank you, and I look forward to our conversation.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:14:05.816024"
+  },
+  {
+    "patient_id": "LAB_007",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to share some recent lab results with you. \n\nYour LDL and HDL levels are within normal ranges, which is positive. However, we have noted that your triglycerides are elevated, and your A1c level is above the normal range. Additionally, your Vitamin D level is slightly low.\n\nIt is important to discuss these findings in detail to understand their implications and any potential next steps. I recommend scheduling a follow-up appointment to review these results with your physician.\n\nThank you, and I look forward to your response.\n\nBest regards,\n[Physician's Name]\n[Physician's Contact Information]",
+    "saved_at": "2026-03-29T02:14:33.582891"
+  },
+  {
+    "patient_id": "LAB_008",
+    "severity": "Follow-up recommended",
+    "draft_message": "Dear [Patient's Name],\n\nI hope this message finds you well. I wanted to inform you about some recent lab results. Your LDL, HDL, and triglyceride levels are within normal ranges, which is positive. However, I noticed that your A1c is mildly elevated, and both your ALT and AST levels are elevated as well. Additionally, your Vitamin D level is slightly low.\n\nIt is important to discuss these findings with your physician to understand their implications for your health. I recommend scheduling a follow-up appointment to review these results and any necessary next steps.\n\nThank you, and I look forward to your response.\n\nBest regards,\n[Physician's Name]",
+    "saved_at": "2026-03-29T02:14:41.665692"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-30T23:58:25.294633Z"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-30T23:59:22.261822Z"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-31T00:00:50.632851+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-31T00:02:01.044160+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-31T00:03:23.213451+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON."
+    ],
+    "saved_at": "2026-03-31T00:04:04.857531+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer did not return valid JSON or parseable structured output."
+    ],
+    "saved_at": "2026-03-31T00:04:58.502753+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I reviewed your recent test results and would like to discuss them with you. Please schedule a follow-up appointment so we can review the findings and next steps together.",
+    "issues": [
+      "Safety reviewer parsing failed: 'dict' object has no attribute 'strip'"
+    ],
+    "saved_at": "2026-03-31T00:07:03.332378+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I wanted to discuss your recent lab results with you. Your Vitamin D level is low at 16. I would like to review these results with you and discuss possible next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.",
+    "issues": [
+      "The statement 'which may be contributing to your fatigue' implies a causal relationship that is not definitively established."
+    ],
+    "saved_at": "2026-03-31T00:08:05.337249+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I want to discuss your recent lab results with you. Your Vitamin D level is low at 16. It would be beneficial for us to review these results together and consider next steps. Please schedule a follow-up appointment at your earliest convenience.",
+    "issues": [
+      "The message includes a definitive statement that low Vitamin D may be contributing to fatigue, which is an overconfident clinical claim."
+    ],
+    "saved_at": "2026-03-31T00:08:25.125171+00:00"
+  },
+  {
+    "patient_id": "LAB_002",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286, and your A1c is mildly elevated at 6.0. Additionally, your HDL level is low at 38. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:29.102413+00:00"
+  },
+  {
+    "patient_id": "LAB_003",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 8.1, and your creatinine level is also elevated at 1.5. Additionally, your triglycerides are elevated at 248. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:33.113897+00:00"
+  },
+  {
+    "patient_id": "LAB_004",
+    "severity": "Urgent follow-up",
+    "draft_message": "Your recent lab results show that both your ALT and AST levels are markedly elevated. Given these findings, along with your symptoms of nausea and dark urine, I would like to review these results with you. Please schedule a follow-up appointment so we can talk about these findings and discuss any necessary next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:36.868723+00:00"
+  },
+  {
+    "patient_id": "LAB_005",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 6.7, and both your ALT and AST levels are also elevated at 96 and 82, respectively. These findings may require further attention. Please schedule a follow-up appointment so we can talk about these results and discuss next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:40.877302+00:00"
+  },
+  {
+    "patient_id": "LAB_006",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss your recent lab results with you. Your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29. These findings may require further attention. Please schedule a follow-up appointment so we can talk about these results and consider next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:44.700253+00:00"
+  },
+  {
+    "patient_id": "LAB_007",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is 7.2, which is elevated, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:48.279179+00:00"
+  },
+  {
+    "patient_id": "LAB_008",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, which may require further evaluation. Additionally, your A1c is mildly elevated. Please schedule a follow-up appointment so we can talk about these findings and consider the next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:08:51.175060+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss your recent lab results with you. Your Vitamin D level is noted to be low at 16. It may be beneficial for us to review these findings and consider next steps. Please schedule a follow-up appointment so we can talk about this further.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:16.223841+00:00"
+  },
+  {
+    "patient_id": "LAB_001",
+    "severity": "Follow-up recommended",
+    "draft_message": "Your recent lab results show that your Vitamin D level is low at 16. This finding is important, and I would like to review these results with you. Please schedule a follow-up appointment so we can talk about these findings and discuss any next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:20.957270+00:00"
+  },
+  {
+    "patient_id": "LAB_002",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286, and your A1c is mildly elevated at 6.0. Additionally, your HDL is low at 38. Please schedule a follow-up appointment so we can talk about these findings and any next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:24.368001+00:00"
+  },
+  {
+    "patient_id": "LAB_003",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 8.1, and your creatinine level is also elevated at 1.5. Additionally, your triglycerides are elevated at 248. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:28.990156+00:00"
+  },
+  {
+    "patient_id": "LAB_004",
+    "severity": "Urgent follow-up",
+    "draft_message": "I would like to discuss your recent lab results with you. Your ALT and AST levels are markedly elevated, which we should review further. Additionally, I noted your symptoms of nausea and dark urine, which can be addressed during our follow-up. Please schedule an appointment so we can talk about these findings and any next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:33.505785+00:00"
+  },
+  {
+    "patient_id": "LAB_005",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is noted to be elevated at 6.7, and both your ALT and AST levels are also noted to be elevated at 96 and 82, respectively. These findings are important, and I would like to review these results with you and discuss next steps. Please schedule a follow-up appointment so we can talk about them.",
+    "issues": [
+      "The message includes definitive clinical claims regarding lab results without framing them as a discussion point.",
+      "The message suggests a recommendation based on lab results, which exceeds the role of a physician-reviewed draft assistant."
+    ],
+    "saved_at": "2026-03-31T00:09:38.497044+00:00"
+  },
+  {
+    "patient_id": "LAB_006",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29. It would be beneficial to schedule a follow-up appointment so we can talk about these findings and any next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:41.953352+00:00"
+  },
+  {
+    "patient_id": "LAB_007",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 7.2, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. Please schedule a follow-up appointment so we can talk about these findings and any next steps.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:46.578206+00:00"
+  },
+  {
+    "patient_id": "LAB_008",
+    "severity": "Follow-up recommended",
+    "draft_message": "I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, and your A1c is mildly elevated. These findings may require further attention. Please schedule a follow-up appointment so we can talk about these results and any symptoms you may be experiencing.",
+    "issues": [],
+    "saved_at": "2026-03-31T00:09:50.206988+00:00"
+  }
+]
