@@ -1,0 +1,22 @@
+[
+  {
+    "patient_id": "P001",
+    "age": 67,
+    "sex": "M",
+    "fasting": true,
+    "symptoms": [],
+    "medications": ["rosuvastatin"],
+    "conditions": [],
+    "labs": {
+      "LDL": 165,
+      "HDL": 38,
+      "Triglycerides": 145,
+      "A1c": 6.1,
+      "Creatinine": 1.1,
+      "eGFR": 72,
+      "ALT": 32,
+      "AST": 28,
+      "Vitamin D": 18
+    }
+  }
+]

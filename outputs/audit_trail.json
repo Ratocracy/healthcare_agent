@@ -1,0 +1,1335 @@
+[
+  {
+    "case_id": "P001",
+    "timestamp": "2026-06-22T22:27:43.738285+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 67,
+      "sex": "M",
+      "fasting": true,
+      "symptoms": [],
+      "medications": [
+        "rosuvastatin"
+      ],
+      "conditions": [],
+      "labs": {
+        "LDL": 165,
+        "HDL": 38,
+        "Triglycerides": 145,
+        "A1c": 6.1,
+        "Creatinine": 1.1,
+        "eGFR": 72,
+        "ALT": 32,
+        "AST": 28,
+        "Vitamin D": 18
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "P001",
+      "age": 67,
+      "sex": "M",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 165.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "LDL is elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 38.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 145.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "A1c",
+          "value": 6.1,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.1,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 72.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 32.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 28.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 18.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "LDL",
+          "value": 165.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "LDL is elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 6.1,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 38.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 18.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Is there a prior A1c available to compare trend over time?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:27:43.738221+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I reviewed your recent test results and noticed the following items for us to discuss: LDL: LDL is elevated.; A1c: A1c is mildly elevated.; HDL: HDL is low.. Please schedule a follow-up appointment so we can review these findings and decide whether any repeat testing or next steps are needed."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I reviewed your recent test results and noticed the following items for us to discuss: LDL: LDL is elevated.; A1c: A1c is mildly elevated.; HDL: HDL is low.. Please schedule a follow-up appointment so we can review these findings and decide whether any repeat testing or next steps are needed.",
+      "raw_output": {
+        "safe": true,
+        "issues": [],
+        "revised_message": "I reviewed your recent test results and noticed the following items for us to discuss: LDL: LDL is elevated.; A1c: A1c is mildly elevated.; HDL: HDL is low.. Please schedule a follow-up appointment so we can review these findings and decide whether any repeat testing or next steps are needed."
+      }
+    },
+    "final_output": "I reviewed your recent test results and noticed the following items for us to discuss: LDL: LDL is elevated.; A1c: A1c is mildly elevated.; HDL: HDL is low.. Please schedule a follow-up appointment so we can review these findings and decide whether any repeat testing or next steps are needed.",
+    "decision_summary": "Rule checks identified 4 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_001",
+    "timestamp": "2026-06-22T22:33:49.777526+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 29,
+      "sex": "female",
+      "fasting": true,
+      "symptoms": [
+        "fatigue"
+      ],
+      "medications": [],
+      "conditions": [],
+      "labs": {
+        "LDL": 118,
+        "HDL": 62,
+        "Triglycerides": 92,
+        "A1c": 5.2,
+        "Creatinine": 0.8,
+        "eGFR": 104,
+        "ALT": 20,
+        "AST": 19,
+        "Vitamin_D": 16
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_001",
+      "age": 29,
+      "sex": "female",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 118.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 62.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 92.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "A1c",
+          "value": 5.2,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Creatinine",
+          "value": 0.8,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 104.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 20.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 19.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 16.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "Vitamin D",
+          "value": 16.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:33:45.374582+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss your recent lab results, particularly regarding your Vitamin D level, which is noted to be low at 16.0. It's important for us to review these findings together and consider the next steps. Please schedule a follow-up appointment so we can talk about this further."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss your recent lab results, particularly regarding your Vitamin D level, which is noted to be low at 16.0. It's important for us to review these findings together and consider the next steps. Please schedule a follow-up appointment so we can talk about this further.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss your recent lab results, particularly regarding your Vitamin D level, which is noted to be low at 16.0. It's important for us to review these findings together and consider the next steps. Please schedule a follow-up appointment so we can talk about this further.\"\n}"
+    },
+    "final_output": "I would like to discuss your recent lab results, particularly regarding your Vitamin D level, which is noted to be low at 16.0. It's important for us to review these findings together and consider the next steps. Please schedule a follow-up appointment so we can talk about this further.",
+    "decision_summary": "Rule checks identified 1 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_002",
+    "timestamp": "2026-06-22T22:33:52.599005+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 44,
+      "sex": "male",
+      "fasting": false,
+      "symptoms": [],
+      "medications": [
+        "amlodipine"
+      ],
+      "conditions": [
+        "hypertension"
+      ],
+      "labs": {
+        "LDL": 154,
+        "HDL": 38,
+        "Triglycerides": 286,
+        "A1c": 6.0,
+        "Creatinine": 1.0,
+        "eGFR": 94,
+        "ALT": 46,
+        "AST": 34,
+        "Vitamin_D": 24
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_002",
+      "age": 44,
+      "sex": "male",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 154.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "LDL is mildly elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 38.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 286.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 6.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 94.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 46.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 34.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 24.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "Triglycerides",
+          "value": 286.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 6.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 38.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "LDL",
+          "value": 154.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "LDL is mildly elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 24.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Is there a prior A1c available to compare trend over time?",
+        "Was a repeat fasting lipid panel planned or needed?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:33:49.778526+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286.0, and your A1c level is mildly elevated at 6.0. Additionally, your HDL is low at 38.0. Please schedule a follow-up appointment so we can talk about these findings and consider any next steps."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286.0, and your A1c level is mildly elevated at 6.0. Additionally, your HDL is low at 38.0. Please schedule a follow-up appointment so we can talk about these findings and consider any next steps.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286.0, and your A1c level is mildly elevated at 6.0. Additionally, your HDL is low at 38.0. Please schedule a follow-up appointment so we can talk about these findings and consider any next steps.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your triglycerides are elevated at 286.0, and your A1c level is mildly elevated at 6.0. Additionally, your HDL is low at 38.0. Please schedule a follow-up appointment so we can talk about these findings and consider any next steps.",
+    "decision_summary": "Rule checks identified 5 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_003",
+    "timestamp": "2026-06-22T22:33:55.828968+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 63,
+      "sex": "male",
+      "fasting": true,
+      "symptoms": [],
+      "medications": [
+        "metformin",
+        "atorvastatin"
+      ],
+      "conditions": [
+        "type 2 diabetes",
+        "hyperlipidemia"
+      ],
+      "labs": {
+        "LDL": 88,
+        "HDL": 36,
+        "Triglycerides": 248,
+        "A1c": 8.1,
+        "Creatinine": 1.5,
+        "eGFR": 52,
+        "ALT": 28,
+        "AST": 24,
+        "Vitamin_D": 27
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_003",
+      "age": 63,
+      "sex": "male",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 88.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 36.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 248.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 8.1,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.5,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Creatinine is elevated."
+        },
+        {
+          "lab": "eGFR",
+          "value": 52.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "eGFR is reduced."
+        },
+        {
+          "lab": "ALT",
+          "value": 28.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 24.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 27.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "A1c",
+          "value": 8.1,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.5,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Creatinine is elevated."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 248.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "eGFR",
+          "value": 52.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "eGFR is reduced."
+        },
+        {
+          "lab": "HDL",
+          "value": 36.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 27.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Do we have prior kidney function results for comparison?",
+        "Is there a prior A1c available to compare trend over time?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:33:52.599005+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 8.1, and your creatinine level is also elevated at 1.5. Additionally, your triglycerides are elevated at 248.0. Please schedule a follow-up appointment so we can talk about these findings and any next steps."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": false,
+      "issues": [
+        "Overconfident or definitive clinical claims regarding lab results without physician framing."
+      ],
+      "revised_message": "I would like to discuss some recent lab results with you. Your A1c level is noted to be elevated at 8.1, and your creatinine level is also noted to be elevated at 1.5. Additionally, your triglycerides are noted to be elevated at 248.0. Please schedule a follow-up appointment so we can talk about these findings and any next steps.",
+      "raw_output": "{\n  \"safe\": false,\n  \"issues\": [\n    \"Overconfident or definitive clinical claims regarding lab results without physician framing.\"\n  ],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your A1c level is noted to be elevated at 8.1, and your creatinine level is also noted to be elevated at 1.5. Additionally, your triglycerides are noted to be elevated at 248.0. Please schedule a follow-up appointment so we can talk about these findings and any next steps.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your A1c level is noted to be elevated at 8.1, and your creatinine level is also noted to be elevated at 1.5. Additionally, your triglycerides are noted to be elevated at 248.0. Please schedule a follow-up appointment so we can talk about these findings and any next steps.",
+    "decision_summary": "Rule checks identified 6 prioritized finding(s) with severity 'Follow-up recommended'. Safety review found 1 issue(s) and produced a revised message."
+  },
+  {
+    "case_id": "LAB_004",
+    "timestamp": "2026-06-22T22:33:58.398817+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 38,
+      "sex": "female",
+      "fasting": true,
+      "symptoms": [
+        "nausea",
+        "dark urine"
+      ],
+      "medications": [],
+      "conditions": [],
+      "labs": {
+        "LDL": 102,
+        "HDL": 54,
+        "Triglycerides": 108,
+        "A1c": 5.4,
+        "Creatinine": 0.9,
+        "eGFR": 93,
+        "ALT": 184,
+        "AST": 162,
+        "Vitamin_D": 31
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_004",
+      "age": 38,
+      "sex": "female",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 102.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 54.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 108.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "A1c",
+          "value": 5.4,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Creatinine",
+          "value": 0.9,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 93.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 184.0,
+          "status": "abnormal",
+          "priority": 3,
+          "note": "ALT is markedly elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 162.0,
+          "status": "abnormal",
+          "priority": 3,
+          "note": "AST is markedly elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 31.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "ALT",
+          "value": 184.0,
+          "status": "abnormal",
+          "priority": 3,
+          "note": "ALT is markedly elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 162.0,
+          "status": "abnormal",
+          "priority": 3,
+          "note": "AST is markedly elevated."
+        }
+      ],
+      "severity": "Urgent follow-up",
+      "followup_questions": [
+        "Do we have prior liver enzyme results or recent illness history for comparison?",
+        "Is there any recent alcohol use, supplement use, or medication change to consider?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:33:55.828968+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your ALT and AST levels are markedly elevated, which is something we should take a closer look at. Additionally, I see that you have reported experiencing nausea and dark urine. Please schedule a follow-up appointment so we can talk about these findings and consider next steps."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss some recent lab results with you. Your ALT and AST levels are markedly elevated, which is something we should take a closer look at. Additionally, I see that you have reported experiencing nausea and dark urine. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your ALT and AST levels are markedly elevated, which is something we should take a closer look at. Additionally, I see that you have reported experiencing nausea and dark urine. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your ALT and AST levels are markedly elevated, which is something we should take a closer look at. Additionally, I see that you have reported experiencing nausea and dark urine. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "decision_summary": "Rule checks identified 2 prioritized finding(s) with severity 'Urgent follow-up'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_005",
+    "timestamp": "2026-06-22T22:34:03.706364+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 51,
+      "sex": "female",
+      "fasting": true,
+      "symptoms": [],
+      "medications": [],
+      "conditions": [
+        "obesity"
+      ],
+      "labs": {
+        "LDL": 172,
+        "HDL": 34,
+        "Triglycerides": 342,
+        "A1c": 6.7,
+        "Creatinine": 1.1,
+        "eGFR": 68,
+        "ALT": 96,
+        "AST": 82,
+        "Vitamin_D": 18
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_005",
+      "age": 51,
+      "sex": "female",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 172.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "LDL is elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 34.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 342.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 6.7,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.1,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 68.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 96.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "ALT is elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 82.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "AST is elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 18.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "A1c",
+          "value": 6.7,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "ALT",
+          "value": 96.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "ALT is elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 82.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "AST is elevated."
+        },
+        {
+          "lab": "LDL",
+          "value": 172.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "LDL is elevated."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 342.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "HDL",
+          "value": 34.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "HDL is low."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 18.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Do we have prior liver enzyme results or recent illness history for comparison?",
+        "Is there any recent alcohol use, supplement use, or medication change to consider?",
+        "Is there a prior A1c available to compare trend over time?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:33:58.398817+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your A1c level is 6.7, which is elevated. Additionally, both your ALT and AST levels are also elevated at 96.0 and 82.0, respectively. Please schedule a follow-up appointment so we can talk about these findings and consider next steps."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss some recent lab results with you. Your A1c level is 6.7, which is elevated. Additionally, both your ALT and AST levels are also elevated at 96.0 and 82.0, respectively. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your A1c level is 6.7, which is elevated. Additionally, both your ALT and AST levels are also elevated at 96.0 and 82.0, respectively. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your A1c level is 6.7, which is elevated. Additionally, both your ALT and AST levels are also elevated at 96.0 and 82.0, respectively. Please schedule a follow-up appointment so we can talk about these findings and consider next steps.",
+    "decision_summary": "Rule checks identified 7 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_006",
+    "timestamp": "2026-06-22T22:34:06.236362+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 35,
+      "sex": "male",
+      "fasting": true,
+      "symptoms": [],
+      "medications": [],
+      "conditions": [],
+      "labs": {
+        "LDL": 98,
+        "HDL": 58,
+        "Triglycerides": 110,
+        "A1c": 5.3,
+        "Creatinine": 1.4,
+        "eGFR": 66,
+        "ALT": 26,
+        "AST": 24,
+        "Vitamin_D": 29
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_006",
+      "age": 35,
+      "sex": "male",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 98.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 58.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 110.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "A1c",
+          "value": 5.3,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.4,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Creatinine is elevated."
+        },
+        {
+          "lab": "eGFR",
+          "value": 66.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 26.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 24.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 29.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "Creatinine",
+          "value": 1.4,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Creatinine is elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 29.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Do we have prior kidney function results for comparison?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:34:03.706364+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "Your recent lab results show that your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29.0. I would like to review these results with you and discuss any necessary next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "Your recent lab results show that your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29.0. I would like to review these results with you and discuss any necessary next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"Your recent lab results show that your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29.0. I would like to review these results with you and discuss any necessary next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.\"\n}"
+    },
+    "final_output": "Your recent lab results show that your creatinine level is elevated at 1.4, and your vitamin D level is slightly low at 29.0. I would like to review these results with you and discuss any necessary next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.",
+    "decision_summary": "Rule checks identified 2 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_007",
+    "timestamp": "2026-06-22T22:34:09.343565+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 57,
+      "sex": "female",
+      "fasting": false,
+      "symptoms": [],
+      "medications": [
+        "metformin"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "labs": {
+        "LDL": 92,
+        "HDL": 49,
+        "Triglycerides": 198,
+        "A1c": 7.2,
+        "Creatinine": 0.9,
+        "eGFR": 82,
+        "ALT": 32,
+        "AST": 30,
+        "Vitamin_D": 22
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_007",
+      "age": 57,
+      "sex": "female",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 92.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 49.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 198.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 7.2,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 0.9,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 82.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 32.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "AST",
+          "value": 30.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 22.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "A1c",
+          "value": 7.2,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "A1c is elevated."
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 198.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "Triglycerides are elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 22.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Is there a prior A1c available to compare trend over time?",
+        "Was a repeat fasting lipid panel planned or needed?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:34:06.237362+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 7.2, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. We may want to repeat some tests or discuss next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 7.2, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. We may want to repeat some tests or discuss next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your A1c level is elevated at 7.2, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. We may want to repeat some tests or discuss next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your A1c level is elevated at 7.2, and your triglycerides are also elevated at 198. Additionally, your vitamin D level is slightly low at 22. We may want to repeat some tests or discuss next steps. Please schedule a follow-up appointment so we can talk about these findings in more detail.",
+    "decision_summary": "Rule checks identified 3 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  },
+  {
+    "case_id": "LAB_008",
+    "timestamp": "2026-06-22T22:34:11.945917+00:00",
+    "prompt_version": "v1",
+    "inputs_used": {
+      "age": 47,
+      "sex": "male",
+      "fasting": true,
+      "symptoms": [
+        "muscle soreness"
+      ],
+      "medications": [
+        "rosuvastatin"
+      ],
+      "conditions": [
+        "hyperlipidemia"
+      ],
+      "labs": {
+        "LDL": 71,
+        "HDL": 46,
+        "Triglycerides": 142,
+        "A1c": 5.8,
+        "Creatinine": 1.0,
+        "eGFR": 91,
+        "ALT": 74,
+        "AST": 79,
+        "Vitamin_D": 26
+      }
+    },
+    "rule_based_analysis": {
+      "patient_id": "LAB_008",
+      "age": 47,
+      "sex": "male",
+      "flagged_labs": [
+        {
+          "lab": "LDL",
+          "value": 71.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "HDL",
+          "value": 46.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "Triglycerides",
+          "value": 142.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "A1c",
+          "value": 5.8,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "Creatinine",
+          "value": 1.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "eGFR",
+          "value": 91.0,
+          "status": "normal",
+          "priority": 0,
+          "note": ""
+        },
+        {
+          "lab": "ALT",
+          "value": 74.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "ALT is elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 79.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "AST is elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 26.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "prioritized_findings": [
+        {
+          "lab": "ALT",
+          "value": 74.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "ALT is elevated."
+        },
+        {
+          "lab": "AST",
+          "value": 79.0,
+          "status": "abnormal",
+          "priority": 2,
+          "note": "AST is elevated."
+        },
+        {
+          "lab": "A1c",
+          "value": 5.8,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "A1c is mildly elevated."
+        },
+        {
+          "lab": "Vitamin D",
+          "value": 26.0,
+          "status": "abnormal",
+          "priority": 1,
+          "note": "Vitamin D is slightly low."
+        }
+      ],
+      "severity": "Follow-up recommended",
+      "followup_questions": [
+        "Do we have prior liver enzyme results or recent illness history for comparison?",
+        "Is there any recent alcohol use, supplement use, or medication change to consider?",
+        "Is there a prior A1c available to compare trend over time?",
+        "Should the physician review whether symptoms could relate to current medication use?"
+      ],
+      "validation_errors": [],
+      "timestamp": "2026-06-22T22:34:09.343565+00:00"
+    },
+    "draft_model": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "initial_draft": "I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, which may require further evaluation. Additionally, your A1c is mildly elevated. Please schedule a follow-up appointment so we can talk about these findings and any symptoms you may be experiencing."
+    },
+    "safety_review": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "safe": true,
+      "issues": [],
+      "revised_message": "I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, which may require further evaluation. Additionally, your A1c is mildly elevated. Please schedule a follow-up appointment so we can talk about these findings and any symptoms you may be experiencing.",
+      "raw_output": "{\n  \"safe\": true,\n  \"issues\": [],\n  \"revised_message\": \"I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, which may require further evaluation. Additionally, your A1c is mildly elevated. Please schedule a follow-up appointment so we can talk about these findings and any symptoms you may be experiencing.\"\n}"
+    },
+    "final_output": "I would like to discuss some recent lab results with you. Your ALT and AST levels are elevated, which may require further evaluation. Additionally, your A1c is mildly elevated. Please schedule a follow-up appointment so we can talk about these findings and any symptoms you may be experiencing.",
+    "decision_summary": "Rule checks identified 4 prioritized finding(s) with severity 'Follow-up recommended'. Safety review marked the draft as safe."
+  }
+]
