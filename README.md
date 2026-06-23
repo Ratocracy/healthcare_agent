@@ -1,7 +1,5 @@
 # Healthcare Agent Refactor
 
-This project converts the original notebook workflow into a configurable Python pipeline with YAML-controlled inputs, an audit trail, and a Streamlit dashboard.
-
 ## Files
 
 ```text
